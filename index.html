@@ -783,7 +783,25 @@ In the third iteration, I added two additional edge supports to stabilize the we
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
-                                <p>Project 3.1 documents the initial robot build process and first-round form and fit checks.</p>
+                                <h4>Project 3.1: ROBOT BUILD &amp; INITIAL ANALYSIS</h4>
+                                <p class="text-muted">261ENGR-11A-1: Introduction to Design Methodology</p>
+                                <p>Project 3.1 documents the initial robot build process and the first round of form-and-fit analysis before designing the chassis.</p>
+                                <h5>Robot Assembly</h5>
+                                <p>We began by assembling the robot kit and soldering the electronics components. This process helped us understand how the robot works and where important components are located, including the wheels, sensors, LEDs, battery pack, and power button.</p>
+                                <p>Building the robot first was important because the chassis design depends on the physical layout of the electronics and moving parts. After assembly, I laid out all the components to understand the structure of the robot and identify which areas would require openings or clearances in the enclosure.</p>
+                                <h5>Initial Design Considerations</h5>
+                                <p>Before designing the chassis, I analyzed the key functional requirements of the robot:</p>
+                                <ul>
+                                    <li>The wheels must move freely without obstruction</li>
+                                    <li>The sensors must be able to see the ground</li>
+                                    <li>The LED indicators should remain visible</li>
+                                    <li>The battery must be accessible for replacement</li>
+                                    <li>The power button must be reachable</li>
+                                </ul>
+                                <p>Understanding these constraints helped guide the form and layout of the chassis design in the following stages.</p>
+                                <h5>Measurements &amp; Fit Analysis</h5>
+                                <p>To design the enclosure accurately, I measured important parts of the robot using digital calipers and referenced those measurements while designing in CAD. These measurements defined the internal dimensions of the chassis and the placement of openings for the wheels, sensors, and button.</p>
+                                <p>This step was critical because even small measurement errors can cause the chassis to not fit the robot correctly.</p>
                                 <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>
@@ -868,7 +886,27 @@ In the third iteration, I added two additional edge supports to stabilize the we
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
-                                <p>Project 3.2 focuses on testing the fit and structure of a 3D printed robot chassis.</p>
+                                <p>Project 3.2 focuses on designing and iterating a 3D printed chassis enclosure for the robot.</p>
+                                <h5>Version 1 – Initial 3D Printed Chassis</h5>
+                                <p>My first 3D printed version was the pink chassis. In this version I tried to closely match the shape of the robot base so the chassis would fit almost one-to-one with the existing structure.</p>
+                                <p>However, this version had two issues:</p>
+                                <ul>
+                                    <li>The overall length of the chassis was slightly too short</li>
+                                    <li>The square cutout in the middle did not align properly with the power button</li>
+                                </ul>
+                                <p>These problems showed that designing too tightly around the exact shape of the base made the model harder to adjust.</p>
+                                <h5>Version 2 – Simplified Chassis Design</h5>
+                                <p>After discussing with another group, I realized the chassis did not need to perfectly follow the shape of the robot base. Instead, I simplified the design by switching to a rectangular enclosure.</p>
+                                <p>In this version I:</p>
+                                <ul>
+                                    <li>increased the overall length of the chassis</li>
+                                    <li>removed the unnecessary middle square extension</li>
+                                    <li>simplified the internal structure</li>
+                                </ul>
+                                <p>This version is the purple chassis, which successfully fits my robot.</p>
+                                <h5>Team Variation</h5>
+                                <p>Our team also created another version (blue chassis) to fit my partner's robot. Their robot had a slightly higher red LED light therefor need a higher hole for it.</p>
+                                <p>Through this iterative process, the final 3D printed chassis successfully protected the electronics while allowing access to the wheels, sensors, and button.</p>
                                 <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>
@@ -974,7 +1012,23 @@ In the third iteration, I added two additional edge supports to stabilize the we
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
-                                <p>Project 3.3 presents the laser cut chassis version and its final form and fit outcome.</p>
+                                <p>Project 3.3 explores designing the same robot chassis using laser cutting instead of 3D printing.</p>
+                                <h5>First Laser Cut Design</h5>
+                                <p>For my first laser cut design, I used the geometry from the 3D printed chassis and recreated it as a laser-cut structure with flat panels that could be assembled together.</p>
+                                <p>However, the first version had three major errors:</p>
+                                <ul>
+                                    <li>I forgot to include the opening for the wheels.</li>
+                                    <li>I forgot to include the hole for the power button.</li>
+                                    <li>I accidentally left a cutting line along the edge, which caused part of the panel to be cut off when it was not supposed to.</li>
+                                </ul>
+                                <p>These mistakes showed how important it is to carefully check cutting paths when preparing files for laser manufacturing.</p>
+                                <h5>Second Laser Cut Version</h5>
+                                <p>After correcting those issues, I produced a second laser cut chassis (the rectangular version on the left without tape). This version assembled correctly and successfully enclosed the robot.</p>
+                                <p>However, after testing it I realized that the internal height was still slightly too low for the electronics components. Interestingly, the first laser cut version also had this issue, but I had not noticed it at the time.</p>
+                                <h5>Final Version</h5>
+                                <p>My partner also created a laser cut version for her robot. Her design fit her robot well, and by comparing both of our versions I was able to adjust the dimensions to create a final chassis that fits mine.</p>
+                                <p>In the final version I also experimented with adding small decorative features to make the chassis resemble the shape of a car. In the future, I would like to add engraved drawings or patterns using the laser cutter to further improve the visual design.</p>
+                                <p>Through this process I learned that laser cutting requires a different design approach than 3D printing, especially in terms of assembly structure, panel layout, and material thickness.</p>
                                 <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>
