@@ -1,0 +1,129 @@
+Final Project Reflection: Design Project #5 - Accessible Delivery Hub
+
+1. Project Overview
+
+For Design Project #5, our team designed the Accessible Delivery Hub, an open-source kit meant to upgrade standard campus shelving into a more inclusive interface for student deliveries. The problem we identified was that food delivery at Brandeis is often left on the ground or in unclear locations. This creates a navigation hazard for students with visual impairments and a physical barrier for students who cannot easily bend down to retrieve their items.
+
+Our target users were Brandeis students with physical or sensory disabilities, especially students who need predictable, waist-height, visible, and tactile delivery locations. The project also needed to work for delivery drivers, because they are the people placing the food at the drop-off point.
+
+My documented team role was Facilitator and Wildcard. In practice, I was mostly in charge of the crafting and physical build side of the project. I started by researching with the team, helped draft the design, worked on the storyboard and prototype, and helped make the final sign. I also kept a process log through email chats and meeting notes when I could.
+
+2. Defining Success
+
+At the beginning, our team defined success around three main pillars: accessibility, visibility, and tactility. The hub needed to make the delivery location easier to find, easier to use by touch, and reachable without requiring students to pick food up from the ground.
+
+Our success criteria included:
+
+- Accessibility: the shelf surface needed to stay within the ADA side-reach range of 15 to 48 inches from the ground.
+- Visibility: the design needed high-contrast colors, using the ADA 70% contrast standard as a guide.
+- Tactility: the sign needed raised, etched, or textured features so users could identify it by touch.
+- Stability: the sign needed to attach securely to the shelf instead of moving or falling when touched.
+- Durability: the final version needed to be appropriate for campus use and more resistant to weather.
+
+We measured success using visibility distance and tactile recognition. For visibility, the goal was to increase the distance from which someone could correctly identify the sign in low light by at least 50% between Cycle 1 and Cycle 4. For tactile recognition, the goal was to reduce the time it took to identify the delivery hub by touch.
+
+In the final presentation, we reported stronger validation data from a night test at 8:30 PM. The final hub reached an average visibility distance of 20.6 feet, and blindfolded users identified the hub in an average of 7.2 seconds with a 100% success rate. These numbers gave us stronger evidence that the design was not only visually improved but also usable by touch.
+
+3. Iteration Cycle Reflection
+
+Iteration 1
+
+The first version was a basic wood or laser-cut prototype used to test whether the sign size, layout, and shelf attachment idea were reasonable. It helped us see the general form of the hub, but it did not perform well enough in the early visibility and tactile tests. The website draft recorded a visibility distance of around 3.5 feet in low light. The tactile features were also too flat, so the sign was difficult to read by touch.
+
+This taught us that a sign can look clear visually but still fail as an accessible object if the tactile information is not strong enough. Accessibility could not just be added as a small surface detail; it had to shape the geometry and material choices of the design.
+
+Iteration 2
+
+In the second version, we changed the CAD model to improve mounting and tactile usability. We added zip-tie holes so the sign could attach more securely to the shelf bars. We also redesigned the text and icons with more depth so they were easier to feel by hand.
+
+These changes improved the design. The visibility distance increased from 3.5 feet to 5.5 feet, and tactile recognition time was cut in half compared with the flat first version. The mounting holes also made the sign more stable at the required waist-height location.
+
+Iteration 3
+
+In Cycle 3, the main change was not the overall CAD shape but the CAM settings in LightBurn. We focused on laser etching and engraving instead of relying on stickers or flat surfaces. We adjusted settings such as line interval, DPI, dithering mode, and laser power to create a smoother and more consistent tactile surface.
+
+This improved both usability and durability. The etched texture was easier to identify by touch than smoother sticker-like surfaces, and the engraved design became part of the board instead of something that could peel off. Visibility distance improved to about 6.2 feet, partly because the engraved matte finish reduced glare.
+
+Final Version
+
+For the final iteration, we changed the base material from wood to acrylic. Wood was useful for testing engraving settings, but acrylic gave the hub a cleaner look, stronger contrast, better light refraction, and better resistance to campus weather. The website draft recorded a 9-foot visibility result, while our later presentation reported a final average visibility distance of 20.6 feet from the 8:30 PM validation test. Either way, the final version beat the original 50% improvement goal compared with the 3.5-foot baseline.
+
+The final version solved several earlier problems: it improved visibility, created sharper tactile feedback, attached more securely to the shelf, and used a more durable material. A limitation that still remains is that the website does not show long-term outdoor testing with repeated rain, snow, or real delivery traffic. Another limitation is that the testing described seems small-scale, so the design would benefit from more testing with actual students with visual or physical disabilities.
+
+4. CAD / CAM / Material Changes
+
+The most important CAD changes were the zip-tie mounting holes and the deeper tactile icons/text. The mounting holes mattered because they changed the sign from a loose visual label into a stable shelf attachment. The deeper icons and text mattered because they made the sign readable by touch, which directly supported the accessibility goal.
+
+The most important CAM changes happened in LightBurn. Instead of only laser cutting the shape, we used engraving and laser etching to create tactile and visual detail. Adjusting line interval, DPI, dithering, and laser power helped create a sharper texture without damaging the material.
+
+The biggest material change was switching from wood to acrylic. Acrylic improved weather resistance, created a cleaner professional appearance, supported high-contrast vinyl layering, and helped visibility because it interacted better with ambient light. Combined with laser etching, the acrylic helped turn a simple sign into a higher-performance accessibility tool.
+
+5. Biggest Technical Challenge
+
+Based on the documented process, the hardest technical challenge was balancing visibility, touch-readability, and physical stability in one object. A sign that is easy to see is not automatically easy to feel, and a tactile sign is not useful if it moves when someone touches it.
+
+The team solved this by iterating across multiple parts of the design instead of changing only one feature. We changed the CAD geometry to make the tactile elements deeper, added zip-tie holes for stability, adjusted CAM engraving settings for texture, and finally changed material from wood to acrylic for contrast and durability. Our key takeaway from the presentation was that material and machining choices were the biggest drivers of accessibility.
+
+For me personally, one of the hardest parts was that the final project had a much shorter timeline than some earlier projects. I felt that the design process needed more time, especially because we had to understand the problem, build a basic prototype, test it, and then iterate. It was also challenging that most of the crafting had to happen on my own time because my available time did not always overlap with my teammates.
+
+6. User Feedback / Testing
+
+We validated the design through repeated testing of visibility distance, tactile recognition, and mounting stability. The visibility test measured how far away someone could correctly identify the sign in low light. The tactile test measured how quickly someone could identify the delivery hub by touch. The mounting test checked whether the sign stayed secure on the shelf at the required height.
+
+Testing changed the design in clear ways. Cycle 1 showed that the tactile features were too flat and the visibility was too limited, so Cycle 2 increased the depth of the icons and text. Cycle 2 showed that the added depth improved recognition, and Cycle 3 refined the texture through engraving settings. The final material test showed that acrylic improved visibility, durability, and tactile clarity.
+
+Our final presentation gave the clearest validation evidence. We tested at 8:30 PM to simulate realistic nighttime delivery conditions. The final design reached an average visibility distance of 20.6 feet. Blindfolded users identified the hub in an average of 7.2 seconds, with a 100% success rate. This helped show that the final hub was not only more visible but also usable without sight.
+
+The website also mentions a plan to test the system by placing a real food delivery order to the location using the created pin and seeing whether the driver could find the hub and leave the order correctly. I do not have enough evidence here to say that this full real-delivery test happened, so I would describe it as a planned validation step unless I confirm it with my team.
+
+7. Teamwork & Process
+
+The team used thematic analysis, insight statements, How Might We questions, and structured brainstorming to define the problem. During team meetings, the group shared observations, grouped them into themes, and selected promising ideas based on desirability, feasibility, and viability. The documented meeting time was Sunday from 11:00 AM to 12:00 PM.
+
+The documented team roles were:
+
+- Sipora Deko: Project Organizer and Presenter
+- Joyce Li: Facilitator and Wildcard
+- Sandra Guzman: Content Architect
+- Sean Lambert: Quality Specialist
+
+For my own self-assessment, I would rate myself strongly in contributing to the team's work, keeping the team on track, expecting quality, and bringing relevant knowledge and skills. I contributed most through the physical crafting side, the prototype, the storyboard, and the final sign. I would rate my interaction with teammates slightly lower because I did not always have time to work with everyone in person, and some of the fabrication work happened independently outside shared class time.
+
+Our collaboration worked best when we used the early research and brainstorming to divide the work into clearer pieces. I contributed to research and the physical prototype. Sandra worked on documentation and the final guide, and also helped keep track of email communication. The team also used meetings and email chats to keep the project moving, though I think we could have improved by scheduling more shared build time.
+
+8. What I Learned
+
+The biggest engineering lesson from this project was that accessibility has to be tested physically, not just described as an intention. In the first version, the sign looked clear enough as an object, but the tactile features and visibility were not strong enough. That showed that a design can meet one goal while still failing another.
+
+This project also changed how I understand iteration. Before this class, I usually cared most about the final result when I was crafting something. This semester showed me that the methodology is just as important: documenting the process, testing the design, and explaining why each change happened. Each cycle focused on a different type of design change: first the basic form, then CAD geometry, then CAM settings, then material. That made the process more systematic. Instead of randomly changing the whole prototype, we could connect each change to a specific test result.
+
+I also learned that small technical choices can strongly affect user experience. The height of tactile icons, the placement of zip-tie holes, the engraving settings, the vinyl contrast, and the material surface all changed whether the hub was visible, stable, and usable.
+
+Another learning outcome I feel proud of is the website itself. Working on the site throughout the class forced me to look back at my work, organize it, and improve it bit by bit. The website became more flexible and easier to update than I expected, and it helped me practice communicating engineering work clearly.
+
+9. If I Had More Time
+
+If we had more time, I would improve the design through more real-world testing. The next version should be tested outdoors over a longer period, including rain, snow, night conditions, and repeated use by different people. I would also want feedback from students who actually use mobility aids or have low vision, because they are the target users.
+
+Future improvements could include:
+
+- stronger weatherproof mounting
+- more durable outdoor materials
+- improved lighting or reflective elements
+- clearer tactile symbols
+- a more standardized labeling or sorting system for multiple deliveries
+- more testing with delivery drivers using the real GPS pin
+- long-term checks for acrylic scratching, glare, or loosening zip ties
+- more user testing to confirm whether the 20.6-foot visibility result holds across different locations and lighting conditions
+
+On a process level, I would also want the final project to have more time for slower iteration. Compared with the earlier CS1103 software engineering project, where we had the whole semester to learn, practice, and improve with teammates, this final project felt more compressed. More time would have allowed us to take the methodology more seriously and complete deeper testing before the final version.
+
+10. Final Reflection / Conclusion
+
+The most valuable part of this project was seeing how the design improved because of testing. The final acrylic hub was not just a nicer-looking version of the first sign; it was the result of specific problems we found in each cycle. The project started with a broad accessibility problem and became a physical object with measurable performance goals.
+
+My biggest personal growth was learning to think about engineering decisions as tradeoffs between users, materials, manufacturing, and testing. I came into the semester wanting to learn and experience engineering, and possibly explore whether I was interested in an engineering career. This project helped me understand that engineering is not only making a final object; it is also about defining the problem, documenting the process, testing assumptions, and improving the design based on evidence.
+
+A successful prototype is not only the one that looks finished. It has to work for the actual user, in the actual environment, under the constraints of available tools and materials. This project made me more aware that good design depends on both the final product and the reasoning process behind it.
+
+The open-source guide was also an important final outcome. By including price listings, step-by-step directions for shelf assembly, and digital files for laser-cut signage in acrylic or plywood, the project became more scalable. The goal was not just to solve one delivery problem once, but to create a kit that other people could remake, adapt, and improve.

@@ -1,0 +1,268 @@
+# PERSONAL_PORTFOLIO_WORKPLAN.md
+
+# Project Overview
+
+Create a professional yet artistic personal portfolio website for internship and future job applications.
+
+The website should combine:
+- engineering and coding projects
+- artistic and creative identity
+- resume and professional experience
+- personal archive and storytelling
+
+The visual direction should feel:
+- artistic
+- dreamy
+- hand-drawn
+- slightly Van Gogh inspired
+- soft blue-green color palette
+- professional but personal
+
+The website will be built primarily using:
+- HTML
+- CSS
+- basic JavaScript if needed
+- GitHub Pages
+- VS Code
+- AI-assisted workflows
+
+---
+
+# Current Existing Sources
+
+Existing websites and resources:
+
+1. GitHub Portfolio
+- technical base website
+- contains coding project structure
+
+2. Google Sites Portfolio
+- contains organized academic/project information
+
+3. WordPress Art Portfolio
+- contains visual/art inspiration and archive materials
+
+4. Resume PDF
+- contains professional and activity information
+
+---
+
+# Final Website Structure
+
+Home
+│
+├── About Me
+├── Job Experience
+├── Activities
+├── Past Projects
+│     ├── Engineering
+│     ├── Jewelry and Metal
+│     ├── Ceramic
+│     └── Photography
+├── Resume
+└── Contact
+
+---
+
+# PHASE 1 GOALS
+
+Focus ONLY on:
+1. Resume Section
+2. Engineering Projects Section
+
+Do NOT build other artistic project sections yet.
+
+The goal is to first establish:
+- professional portfolio structure
+- navigation system
+- reusable project page layout
+- clean responsive foundation
+
+---
+
+# TASK 1 — Resume Section
+
+Create a professional resume page using information from the provided resume PDF.
+
+Requirements:
+- clean professional layout
+- maintain artistic visual theme
+- include:
+    - education
+    - work experience
+    - activities
+    - leadership
+    - skills
+    - contact information
+
+Design Notes:
+- should feel modern and clean
+- should NOT feel like a plain PDF copy
+- use section cards or timeline layout
+- maintain readable typography
+- preserve professionalism
+
+Possible Features:
+- downloadable PDF button
+- smooth scrolling
+- section navigation
+
+---
+
+# TASK 2 — Engineering Projects Section
+
+Create the first engineering project showcase page.
+
+Primary project:
+- ATG / 11A engineering project
+
+Requirements:
+- project overview
+- technologies used
+- screenshots
+- role and contribution
+- engineering/design process
+- challenges and solutions
+- project link and GitHub link if available
+
+Design Notes:
+- reusable project card system
+- reusable subpage structure
+- responsive layout
+- visually consistent with homepage
+
+Possible Features:
+- image gallery
+- hover animations
+- expandable sections
+- timeline/process visualization
+
+---
+
+# Visual Design System
+
+Color Palette:
+- blue-green
+- soft cyan
+- muted teal
+- cream/off-white accents
+
+Visual Style:
+- dreamy
+- artistic
+- hand-painted feeling
+- soft gradients
+- slightly textured backgrounds
+
+Typography:
+- clean readable body font
+- elegant title font
+- modern but personal
+
+Avoid:
+- overly corporate style
+- harsh black/white contrast
+- excessive animation
+- cluttered layouts
+
+---
+
+# Homepage Direction
+
+Homepage should include:
+- hero section
+- self introduction
+- navigation
+- quick access to projects and resume
+
+Potential hero content:
+- hand-drawn sky background
+- Van Gogh inspired landscape
+- personal portrait artwork
+
+---
+
+# Technical Requirements
+
+Use:
+- semantic HTML
+- reusable CSS classes
+- modular file structure
+
+Preferred Structure:
+
+/assets
+    /images
+    /icons
+
+/pages
+    /projects
+
+/styles
+
+/scripts
+
+index.html
+
+---
+
+# Important Design Philosophy
+
+This website is NOT just a resume website.
+
+It should communicate:
+- engineering ability
+- artistic identity
+- leadership
+- storytelling
+- personality
+
+The website should feel like:
+"a professional portfolio combined with an artistic personal archive."
+
+---
+
+# Iteration Notes
+
+This project will be developed in phases.
+
+Phase 1:
+- Resume
+- Engineering project
+
+Future phases:
+- Jewelry and Metal
+- Ceramic
+- Photography
+- Animation
+- Interactive archive system
+
+Always prioritize:
+1. clean structure
+2. readability
+3. scalability
+4. maintainable code
+5. cohesive visual identity
+
+---
+
+# AI Workflow Notes
+
+When generating code:
+- prioritize clean architecture
+- avoid unnecessary frameworks
+- write reusable components
+- keep CSS organized
+- comment important sections
+
+When generating layouts:
+- preserve whitespace
+- avoid overcrowding
+- maintain strong visual hierarchy
+
+When generating content:
+- professional tone
+- concise wording
+- readable descriptions
+
+---
